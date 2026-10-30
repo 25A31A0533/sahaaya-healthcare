@@ -1,0 +1,97 @@
+{
+  "_notice": "SAMPLE - replace with official protocols. Clinical schedules are illustrative guidelines for ASHA decision-support.",
+  "version": "1.0-sample",
+  "anc_schedule": [
+    {
+      "visit_number": 1,
+      "timing_weeks": "Within 12 weeks (First trimester)",
+      "max_weeks": 12,
+      "actions": "Early pregnancy registration, MCP card issue, BP, weight, Hb test, urine albumin/sugar, IFA distribution, TT-1/Td-1 injection.",
+      "risk_focus": "Severe nausea, early spotting, severe anemia"
+    },
+    {
+      "visit_number": 2,
+      "timing_weeks": "14 to 26 weeks (Second trimester)",
+      "min_weeks": 14,
+      "max_weeks": 26,
+      "actions": "BP monitoring, weight gain tracking, abdominal exam for fundal height, TT-2/Td-2 injection (after 4 weeks of first dose), calcium and IFA supply.",
+      "risk_focus": "Excessive swelling, abnormal weight gain, elevated BP > 140/90"
+    },
+    {
+      "visit_number": 3,
+      "timing_weeks": "28 to 34 weeks (Third trimester)",
+      "min_weeks": 28,
+      "max_weeks": 34,
+      "actions": "BP check, abdominal palpation, fetal heart sounds, check for pallor, identify high-risk pregnancy signs, birth preparedness.",
+      "risk_focus": "Pre-eclampsia, reduced fetal movement, antepartum bleeding"
+    },
+    {
+      "visit_number": 4,
+      "timing_weeks": "36 weeks to delivery",
+      "min_weeks": 36,
+      "max_weeks": 40,
+      "actions": "Confirm delivery location (Kothavalasa PHC or Area Hospital), emergency transport arrangement, identify blood donor, ensure birth companion.",
+      "risk_focus": "Obstructed labor signs, premature rupture of membranes, severe headache/blurring"
+    }
+  ],
+  "immunisation_schedule": [
+    {
+      "milestone": "Birth",
+      "age_days_min": 0,
+      "age_days_max": 15,
+      "vaccines": ["BCG", "OPV-0", "Hepatitis-B Birth Dose"],
+      "site": "Left upper arm (BCG), Oral (OPV), Anterolateral mid-thigh (Hep-B)"
+    },
+    {
+      "milestone": "6 Weeks",
+      "age_days_min": 42,
+      "age_days_max": 56,
+      "vaccines": ["OPV-1", "Pentavalent-1 (DPT+HepB+Hib)", "Rotavirus-1", "fIPV-1", "PCV-1"],
+      "site": "Oral, Left thigh, Oral, Right intradermal, Right thigh"
+    },
+    {
+      "milestone": "10 Weeks",
+      "age_days_min": 70,
+      "age_days_max": 84,
+      "vaccines": ["OPV-2", "Pentavalent-2", "Rotavirus-2"],
+      "site": "Oral, Left thigh, Oral"
+    },
+    {
+      "milestone": "14 Weeks",
+      "age_days_min": 98,
+      "age_days_max": 112,
+      "vaccines": ["OPV-3", "Pentavalent-3", "Rotavirus-3", "fIPV-2", "PCV-2"],
+      "site": "Oral, Left thigh, Oral, Right intradermal, Right thigh"
+    },
+    {
+      "milestone": "9-12 Months",
+      "age_days_min": 270,
+      "age_days_max": 365,
+      "vaccines": ["MR-1 (Measles-Rubella)", "JE-1 (if endemic)", "PCV Booster", "Vitamin A Dose 1"],
+      "site": "Right arm subcutaneous, Left thigh, Oral 1ml"
+    },
+    {
+      "milestone": "16-24 Months",
+      "age_days_min": 480,
+      "age_days_max": 730,
+      "vaccines": ["MR-2", "DPT Booster-1", "OPV Booster", "Vitamin A Dose 2"],
+      "site": "Right arm subcutaneous, Left thigh, Oral, Oral 2ml"
+    }
+  ],
+  "ncd_schedule": {
+    "hypertension": {
+      "frequency_days": 30,
+      "target_bp": "< 140/90 mmHg",
+      "actions": "Measure sitting BP with calibrated digital cuff, verify daily medication adherence, check for chest pain/shortness of breath/headache, emphasize low salt (< 5g/day)."
+    },
+    "diabetes": {
+      "frequency_days": 30,
+      "actions": "Check fasting / random blood sugar using glucometer, inspect feet for non-healing ulcers or loss of sensation, verify metformin adherence."
+    }
+  },
+  "malnutrition_criteria": {
+    "sam_red_cutoff_cm": 11.5,
+    "mam_yellow_cutoff_cm": 12.5,
+    "instructions": "Measure left mid-upper arm circumference with MUAC tape at midpoint between acromion and olecranon. If < 11.5 cm or bilateral pitting edema is present, refer immediately to Nutrition Rehabilitation Centre (NRC)."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_notice": "SAMPLE - replace with official protocols. Danger signs catalog with native review annotations.",
+  "whitelist_contexts": [
+    "blood pressure",
+    "high blood pressure",
+    "low blood pressure",
+    "bp check",
+    "bp reading",
+    "blood sugar",
+    "fasting blood sugar",
+    "random blood sugar",
+    "glucose level",
+    "sugar test",
+    "mild fever after injection",
+    "routine checkup"
+  ],
+  "danger_categories": [
+    {
+      "id": "DS-MAT-01",
+      "name": "Maternal Vaginal Bleeding",
+      "severity": "CRITICAL",
+      "protocol_citation": "Maternal & Child Health Guidelines, Section 1.2",
+      "immediate_action": "Refer immediately to Kothavalasa PHC / CHC. Position woman on left side, do not pack vagina, call 108 ambulance.",
+      "english_patterns": ["bleeding", "vaginal bleeding", "blood per vaginum", "spotting in pregnancy", "heavy bleeding"],
+      "non_english_terms": [
+        { "term": "raktasravam", "language": "Telugu transliterated", "meaning": "blood flow / hemorrhage", "review_status": "needs_native_review" },
+        { "term": "raktha sravam", "language": "Telugu transliterated", "meaning": "blood flow / hemorrhage", "review_status": "needs_native_review" },
+        { "term": "kallu pothunnayi", "language": "Telugu colloquial", "meaning": "bleeding / severe discharge", "review_status": "needs_native_review" },
+        { "term": "khoon nikal raha", "language": "Hinglish", "meaning": "blood coming out", "review_status": "needs_native_review" },
+        { "term": "bleeding ho raha", "language": "Hinglish", "meaning": "bleeding occurring", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-MAT-02",
+      "name": "Convulsions / Fits / Eclampsia",
+      "severity": "CRITICAL",
+      "protocol_citation": "Maternal & Child Health Guidelines, Section 1.2",
+      "immediate_action": "Refer immediately to Kothavalasa PHC. Clear airway, position on left side, do not put anything in mouth, keep warm, transport urgently via 108.",
+      "english_patterns": ["fits", "convulsion", "convulsions", "seizure", "seizures", "eclampsia"],
+      "non_english_terms": [
+        { "term": "murcha", "language": "Telugu transliterated", "meaning": "fainting / convulsions", "review_status": "needs_native_review" },
+        { "term": "kampam", "language": "Telugu transliterated", "meaning": "tremors / shaking fits", "review_status": "needs_native_review" },
+        { "term": "valippu", "language": "South Regional", "meaning": "seizure / fit", "review_status": "needs_native_review" },
+        { "term": "daure", "language": "Hinglish", "meaning": "fits / attacks", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-MAT-03",
+      "name": "Severe Headache with Blurred Vision",
+      "severity": "URGENT",
+      "protocol_citation": "Maternal & Child Health Guidelines, Section 1.2",
+      "immediate_action": "Check BP immediately. If Systolic >= 140 or Diastolic >= 90 with visual changes, refer to Kothavalasa PHC for pre-eclampsia management.",
+      "english_patterns": ["severe headache", "blurred vision", "spots before eyes", "seeing dark spots", "dim vision"],
+      "non_english_terms": [
+        { "term": "tala noppi chekatlu", "language": "Telugu colloquial", "meaning": "headache with darkness/blurring in eyes", "review_status": "needs_native_review" },
+        { "term": "chekatlu kammadham", "language": "Telugu colloquial", "meaning": "blackout / dim vision", "review_status": "needs_native_review" },
+        { "term": "thala noppi", "language": "Telugu transliterated", "meaning": "headache", "review_status": "needs_native_review" },
+        { "term": "sir me tez dard", "language": "Hinglish", "meaning": "severe pain in head", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-MAT-04",
+      "name": "Severe Abdominal Pain in Pregnancy",
+      "severity": "URGENT",
+      "protocol_citation": "Maternal & Child Health Guidelines, Section 1.2",
+      "immediate_action": "Refer to Kothavalasa PHC immediately to rule out abruption, uterine rupture, or ectopic pregnancy. Do not give painkiller pills.",
+      "english_patterns": ["severe abdominal pain", "severe stomach pain", "severe cramping", "sharp belly pain"],
+      "non_english_terms": [
+        { "term": "kadupu noppi", "language": "Telugu transliterated", "meaning": "stomach / abdominal pain", "review_status": "needs_native_review" },
+        { "term": "potta noppi", "language": "Telugu colloquial", "meaning": "belly pain", "review_status": "needs_native_review" },
+        { "term": "pet me tez dard", "language": "Hinglish", "meaning": "severe pain in belly", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-MAT-05",
+      "name": "Absent or Decreased Fetal Movement",
+      "severity": "CRITICAL",
+      "protocol_citation": "Maternal & Child Health Guidelines, Section 1.2",
+      "immediate_action": "Give mother sweet warm drink, have her lie on left side for 1 hour. If fetal movement is still absent or < 3 kicks, refer immediately to PHC for fetal Doppler.",
+      "english_patterns": ["no baby movement", "decreased fetal movement", "baby not moving", "movement stopped", "loss of fetal kicks"],
+      "non_english_terms": [
+        { "term": "bidda kadaladam ledu", "language": "Telugu colloquial", "meaning": "baby is not moving", "review_status": "needs_native_review" },
+        { "term": "kadalika ledu", "language": "Telugu colloquial", "meaning": "no movement", "review_status": "needs_native_review" },
+        { "term": "baccha hil nahi raha", "language": "Hinglish", "meaning": "baby is not moving", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-GEN-01",
+      "name": "High Fever with Rash / Stiff Neck",
+      "severity": "URGENT",
+      "protocol_citation": "Primary Care Clinical Decision Guidelines, Section 7.1",
+      "immediate_action": "Tepid sponging, do not apply ice. Check for neck stiffness. Refer immediately to PHC for suspected meningitis or viral exanthem.",
+      "english_patterns": ["fever with rash", "high fever and rash", "fever with stiff neck", "fever with purple spots"],
+      "non_english_terms": [
+        { "term": "tega jwaram", "language": "Telugu colloquial", "meaning": "very high / severe fever", "review_status": "needs_native_review" },
+        { "term": "jwaram daddurlu", "language": "Telugu colloquial", "meaning": "fever with body rashes", "review_status": "needs_native_review" },
+        { "term": "daddurlu", "language": "Telugu transliterated", "meaning": "skin rashes / hives", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-GEN-02",
+      "name": "Severe Difficulty Breathing",
+      "severity": "CRITICAL",
+      "protocol_citation": "Primary Care Clinical Decision Guidelines, Section 7.1",
+      "immediate_action": "Keep in upright sitting position, loosen tight clothing, arrange immediate oxygen-supported transport to Kothavalasa PHC.",
+      "english_patterns": ["difficulty breathing", "severe breathlessness", "gasping for air", "unable to breathe"],
+      "non_english_terms": [
+        { "term": "swasa adadam ledu", "language": "Telugu colloquial", "meaning": "breath is not coming / choking", "review_status": "needs_native_review" },
+        { "term": "dummu kattukuntundi", "language": "Telugu colloquial", "meaning": "breathlessness / asthma attack", "review_status": "needs_native_review" },
+        { "term": "saans lene me takleef", "language": "Hinglish", "meaning": "difficulty in taking breath", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-NB-01",
+      "name": "Newborn Inability to Suck or Feed",
+      "severity": "CRITICAL",
+      "protocol_citation": "IMNCI Guidelines, Section 3.1",
+      "immediate_action": "Newborn cannot suck breastmilk. Sign of neonatal sepsis or severe illness. Refer immediately to Kothavalasa PHC / SNCU. Keep baby warm.",
+      "english_patterns": ["unable to suck", "not feeding", "cannot latch", "refusing breastmilk", "stopped feeding"],
+      "non_english_terms": [
+        { "term": "paalu thaagatam ledu", "language": "Telugu colloquial", "meaning": "not drinking milk", "review_status": "needs_native_review" },
+        { "term": "paalu tagadam ledu", "language": "Telugu colloquial", "meaning": "not drinking milk", "review_status": "needs_native_review" },
+        { "term": "doodh nahi pi raha", "language": "Hinglish", "meaning": "not drinking milk", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-NB-02",
+      "name": "Newborn Hypothermia (Cold to Touch)",
+      "severity": "CRITICAL",
+      "protocol_citation": "IMNCI Guidelines, Section 3.1",
+      "immediate_action": "Provide immediate Kangaroo Mother Care (skin-to-skin contact between mother's breasts), put on cap and warm socks. Refer to SNCU.",
+      "english_patterns": ["cold to touch", "hypothermia", "baby feeling ice cold", "cold extremities"],
+      "non_english_terms": [
+        { "term": "challaga ayipoyindi", "language": "Telugu colloquial", "meaning": "baby body turned cold", "review_status": "needs_native_review" },
+        { "term": "thanda pad gaya", "language": "Hinglish", "meaning": "turned cold", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-NB-03",
+      "name": "Newborn Fast Breathing / Chest Indrawing",
+      "severity": "CRITICAL",
+      "protocol_citation": "IMNCI Guidelines, Section 3.1",
+      "immediate_action": "Sign of severe pneumonia or respiratory distress. Refer immediately to PHC/SNCU. Keep infant upright and warm.",
+      "english_patterns": ["chest indrawing", "fast breathing newborn", "grunting sound", "breathing faster than 60"],
+      "non_english_terms": [
+        { "term": "rommu lopadaki", "language": "Telugu colloquial", "meaning": "chest wall pulling inside", "review_status": "needs_native_review" },
+        { "term": "vesam ga swasa", "language": "Telugu colloquial", "meaning": "rapid/fast breathing", "review_status": "needs_native_review" }
+      ]
+    },
+    {
+      "id": "DS-NB-04",
+      "name": "Newborn Severe Jaundice / Pus from Umbilicus",
+      "severity": "URGENT",
+      "protocol_citation": "IMNCI Guidelines, Section 3.1",
+      "immediate_action": "Yellow soles/palms in first week or umbilical cord draining pus indicates severe infection. Immediate referral to PHC.",
+      "english_patterns": ["yellow palms", "yellow soles", "umbilical pus", "pus from navel", "foul smelling cord"],
+      "non_english_terms": [
+        { "term": "pasupu arachethulu", "language": "Telugu colloquial", "meaning": "yellow palms", "review_status": "needs_native_review" },
+        { "term": "boddu nunchi cheemu", "language": "Telugu colloquial", "meaning": "pus oozing from navel", "review_status": "needs_native_review" }
+      ]
+    }
+  ]
+}

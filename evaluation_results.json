@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-29T17:26:30Z",
+  "team": "Team CodeCure",
+  "project": "Sahaaya Health",
+  "environment_check": {
+    "official_dir_present": false,
+    "missing_files": [
+      "protocols.json",
+      "questions.json",
+      "escalation_flags.json",
+      "households_500.json",
+      "model"
+    ],
+    "present_files": [
+      "evaluate.py"
+    ]
+  },
+  "metrics": {
+    "danger_recall_pct": 100.0,
+    "false_positive_pct": 0.0,
+    "refusal_precision_pct": 100.0,
+    "latency_p50_ms": 0.07120000009308569,
+    "latency_p95_ms": 0.28310000016062986,
+    "latency_mean_ms": 0.13199272705771198,
+    "model_size_mb": 0.0,
+    "bundle_size_kb": 411.6005859375,
+    "visit_ranking_500_valid": true,
+    "visit_ranking_latency_ms": 0.1816000003600493
+  },
+  "verdict": "PASS"
+}

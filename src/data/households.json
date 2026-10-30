@@ -1,0 +1,595 @@
+[
+  {
+    "id": "KV-001",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Maddi Satyanarayana",
+    "village": "Chinnaipalem",
+    "distance_km": 0.8,
+    "members_count": 4,
+    "patient": {
+      "name": "Maddi Lakshmi Devi",
+      "age": 23,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 36,
+      "edc": "2026-11-12",
+      "status": "High Risk - Pre-eclampsia monitoring",
+      "last_visit": "2026-10-02",
+      "priority": 1,
+      "reason": "36-week ANC checkup: Check BP, assess pedal edema, review danger signs (headache/blurring), confirm Kothavalasa PHC birth transport plan.",
+      "scheduled_time": "08:30 AM"
+    }
+  },
+  {
+    "id": "KV-002",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Gollapalli Appa Rao",
+    "village": "Gollalapalem",
+    "distance_km": 2.2,
+    "members_count": 5,
+    "patient": {
+      "name": "Gollapalli Sai Teja (Infant)",
+      "age_weeks": 6,
+      "gender": "Male",
+      "category": "Child",
+      "status": "Immunisation Overdue",
+      "last_visit": "2026-09-18",
+      "priority": 2,
+      "reason": "6-Week immunization overdue by 5 days: Pentavalent-1, OPV-1, Rotavirus-1, fIPV-1, PCV-1 due.",
+      "scheduled_time": "09:15 AM"
+    }
+  },
+  {
+    "id": "KV-003",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Karri Venkata Ramana",
+    "village": "Ramabhadrapuram",
+    "distance_km": 3.5,
+    "members_count": 6,
+    "patient": {
+      "name": "Karri Kondamma",
+      "age": 58,
+      "gender": "Female",
+      "category": "NCD",
+      "status": "Hypertension Follow-up",
+      "last_visit": "2026-09-14",
+      "priority": 3,
+      "reason": "Monthly Hypertension review: Record sitting BP, verify daily Amlodipine 5mg adherence, reinforce low salt intake.",
+      "scheduled_time": "10:00 AM"
+    }
+  },
+  {
+    "id": "KV-004",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Pilla Nookaraju",
+    "village": "Chinnaipalem",
+    "distance_km": 1.1,
+    "members_count": 3,
+    "patient": {
+      "name": "Pilla Sita Mahalakshmi",
+      "age": 21,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 16,
+      "edc": "2027-03-25",
+      "status": "Routine ANC Checkup",
+      "last_visit": "2026-09-15",
+      "priority": 3,
+      "reason": "2nd Trimester ANC Visit 2: TT-2 injection administration, distribute 90 days IFA and Calcium tablets.",
+      "scheduled_time": "10:45 AM"
+    }
+  },
+  {
+    "id": "KV-005",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Reddy Sanyasi Rao",
+    "village": "Tallavalasa",
+    "distance_km": 4.8,
+    "members_count": 4,
+    "patient": {
+      "name": "Reddy Ananya (Child)",
+      "age_months": 14,
+      "gender": "Female",
+      "category": "Child",
+      "status": "Malnutrition Borderline (MAM)",
+      "last_visit": "2026-10-01",
+      "priority": 2,
+      "reason": "MUAC screening follow-up: Previous MUAC 11.8 cm (Yellow Zone). Re-measure arm circumference, counsel on egg/dal nutrition.",
+      "scheduled_time": "11:30 AM"
+    }
+  },
+  {
+    "id": "KV-006",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Vuriti Simhachalam",
+    "village": "Kothavalasa",
+    "distance_km": 5.2,
+    "members_count": 5,
+    "patient": {
+      "name": "Vuriti Naga Jyothi",
+      "age": 27,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 32,
+      "edc": "2026-12-08",
+      "status": "High Risk - Gestational Diabetes",
+      "last_visit": "2026-09-28",
+      "priority": 1,
+      "reason": "High-risk 3rd trimester visit: Monitor fasting glucose, check for excessive weight gain or reduced fetal movements.",
+      "scheduled_time": "12:15 PM"
+    }
+  },
+  {
+    "id": "KV-007",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Boddu Suryanarayana",
+    "village": "Gollalapalem",
+    "distance_km": 2.5,
+    "members_count": 4,
+    "patient": {
+      "name": "Boddu Ravi Teja",
+      "age": 52,
+      "gender": "Male",
+      "category": "NCD",
+      "status": "Type 2 Diabetes & HTN",
+      "last_visit": "2026-09-12",
+      "priority": 3,
+      "reason": "Monthly NCD check: RBS finger-prick test, foot ulcer inspection, check Metformin & Telmisartan supplies.",
+      "scheduled_time": "01:30 PM"
+    }
+  },
+  {
+    "id": "KV-008",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Mylapalli Somulu",
+    "village": "Chinnaipalem",
+    "distance_km": 0.5,
+    "members_count": 5,
+    "patient": {
+      "name": "Mylapalli Mokshith (Infant)",
+      "age_months": 9,
+      "gender": "Male",
+      "category": "Child",
+      "status": "Immunisation Due",
+      "last_visit": "2026-09-10",
+      "priority": 2,
+      "reason": "9-Month milestone due: Administer MR-1 (Measles-Rubella), PCV Booster, and Vitamin A 100,000 IU syrup.",
+      "scheduled_time": "02:15 PM"
+    }
+  },
+  {
+    "id": "KV-009",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Dadi Chinna Rao",
+    "village": "Ramabhadrapuram",
+    "distance_km": 3.8,
+    "members_count": 4,
+    "patient": {
+      "name": "Dadi Sravani",
+      "age": 24,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 28,
+      "edc": "2027-01-05",
+      "status": "Routine ANC Visit 3",
+      "last_visit": "2026-09-16",
+      "priority": 3,
+      "reason": "ANC Visit 3: Fundal height measurement, check fetal heart sounds, screen for pallor and lower extremity edema.",
+      "scheduled_time": "03:00 PM"
+    }
+  },
+  {
+    "id": "KV-010",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Pangi Subba Rao",
+    "village": "Tallavalasa",
+    "distance_km": 4.2,
+    "members_count": 6,
+    "patient": {
+      "name": "Pangi Yerramma",
+      "age": 64,
+      "gender": "Female",
+      "category": "NCD",
+      "status": "Severe Hypertension",
+      "last_visit": "2026-09-20",
+      "priority": 2,
+      "reason": "Follow-up for elevated BP (last reading 158/96): Check for headache, chest heaviness, check pill bottle.",
+      "scheduled_time": "03:45 PM"
+    }
+  },
+  {
+    "id": "KV-011",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Allu Ramesh",
+    "village": "Kothavalasa",
+    "distance_km": 5.8,
+    "members_count": 4,
+    "patient": {
+      "name": "Allu Charitha (Infant)",
+      "age_weeks": 10,
+      "gender": "Female",
+      "category": "Child",
+      "status": "Immunisation Due",
+      "last_visit": "2026-09-24",
+      "priority": 2,
+      "reason": "10-Week immunisation: Pentavalent-2, OPV-2, and Rotavirus-2 drops due.",
+      "scheduled_time": "04:30 PM"
+    }
+  },
+  {
+    "id": "KV-012",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Koppisetti Prasad",
+    "village": "Chinnaipalem",
+    "distance_km": 0.9,
+    "members_count": 3,
+    "patient": {
+      "name": "Koppisetti Swathi",
+      "age": 22,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 11,
+      "edc": "2027-05-02",
+      "status": "Early Registration ANC 1",
+      "last_visit": "2026-09-29",
+      "priority": 3,
+      "reason": "First trimester registration: Issue MCP card, verify TT-1 dose, check Hb, discuss morning sickness management.",
+      "scheduled_time": "05:15 PM"
+    }
+  },
+  {
+    "id": "KV-013",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Chintala Polaiah",
+    "village": "Gollalapalem",
+    "distance_km": 2.1,
+    "members_count": 5,
+    "patient": {
+      "name": "Chintala Parvathi",
+      "age": 61,
+      "gender": "Female",
+      "category": "NCD",
+      "status": "Type 2 Diabetes",
+      "last_visit": "2026-09-17",
+      "priority": 3,
+      "reason": "Check FBS level, check for leg numbness or burning sensations, encourage millets in diet.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-014",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Ganta Bangarraju",
+    "village": "Ramabhadrapuram",
+    "distance_km": 3.2,
+    "members_count": 4,
+    "patient": {
+      "name": "Ganta Varun (Infant)",
+      "age_weeks": 14,
+      "gender": "Male",
+      "category": "Child",
+      "status": "Immunisation Due",
+      "last_visit": "2026-09-20",
+      "priority": 2,
+      "reason": "14-Week vaccination milestone: Pentavalent-3, OPV-3, Rotavirus-3, fIPV-2, PCV-2 due.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-015",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Gorle Tatarao",
+    "village": "Tallavalasa",
+    "distance_km": 4.5,
+    "members_count": 4,
+    "patient": {
+      "name": "Gorle Bhargavi",
+      "age": 25,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 37,
+      "edc": "2026-11-04",
+      "status": "Near Term Birth Preparedness",
+      "last_visit": "2026-10-05",
+      "priority": 1,
+      "reason": "Near term checkup: Verify hospital bag ready, 108 contact saved, birth attendant identified, re-screen danger signs.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-016",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Surisetti Demudu",
+    "village": "Kothavalasa",
+    "distance_km": 5.4,
+    "members_count": 5,
+    "patient": {
+      "name": "Surisetti Dhanalakshmi",
+      "age": 29,
+      "gender": "Female",
+      "category": "Child",
+      "child_name": "Surisetti Karthik (2y)",
+      "status": "Malnutrition SAM Case",
+      "last_visit": "2026-10-04",
+      "priority": 1,
+      "reason": "Severe Acute Malnutrition (MUAC 11.2 cm Red Zone): Ensure NRC transfer follow-up and therapeutic feeding.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-017",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Velaga Govinda",
+    "village": "Chinnaipalem",
+    "distance_km": 0.7,
+    "members_count": 4,
+    "patient": {
+      "name": "Velaga Appalanarasaiah",
+      "age": 68,
+      "gender": "Male",
+      "category": "NCD",
+      "status": "Hypertension & Arthritic Pain",
+      "last_visit": "2026-09-22",
+      "priority": 3,
+      "reason": "Blood pressure monitoring, medication adherence check, mobility assessment.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-018",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Simhadri Jogarao",
+    "village": "Gollalapalem",
+    "distance_km": 2.7,
+    "members_count": 3,
+    "patient": {
+      "name": "Simhadri Padmavati",
+      "age": 20,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 22,
+      "edc": "2027-02-14",
+      "status": "Severe Anemia (Hb 7.8 g/dL)",
+      "last_visit": "2026-10-01",
+      "priority": 1,
+      "reason": "High Risk Anemia: Track double-dose IFA compliance, counsel on green leaves and jaggery, arrange PHC IV iron sucrose if needed.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-019",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Bojja Guruvulu",
+    "village": "Ramabhadrapuram",
+    "distance_km": 3.9,
+    "members_count": 5,
+    "patient": {
+      "name": "Bojja Likhitha (Toddler)",
+      "age_months": 18,
+      "gender": "Female",
+      "category": "Child",
+      "status": "Booster Immunisation Due",
+      "last_visit": "2026-09-08",
+      "priority": 2,
+      "reason": "16-24 Month booster: DPT Booster-1, MR-2, OPV Booster, Vitamin A Dose 2 due.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-020",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Yellapu Venkata Rao",
+    "village": "Tallavalasa",
+    "distance_km": 4.1,
+    "members_count": 4,
+    "patient": {
+      "name": "Yellapu Somalamma",
+      "age": 55,
+      "gender": "Female",
+      "category": "NCD",
+      "status": "Diabetes Screening",
+      "last_visit": "2026-09-18",
+      "priority": 3,
+      "reason": "Routine 6-month diabetic review: Blood glucose finger-prick test, visual check.",
+      "scheduled_time": "Tomorrow"
+    }
+  },
+  {
+    "id": "KV-021",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Malla Kanaka Raju",
+    "village": "Kothavalasa",
+    "distance_km": 5.9,
+    "members_count": 4,
+    "patient": {
+      "name": "Malla Sailaja",
+      "age": 26,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 19,
+      "edc": "2027-03-08",
+      "status": "Routine ANC Checkup",
+      "last_visit": "2026-09-19",
+      "priority": 3,
+      "reason": "Mid-trimester assessment: Verify TT-2, check fundal growth, supply calcium tablets.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-022",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Pothula Ramu",
+    "village": "Chinnaipalem",
+    "distance_km": 1.2,
+    "members_count": 5,
+    "patient": {
+      "name": "Pothula Harika (Infant)",
+      "age_weeks": 7,
+      "gender": "Female",
+      "category": "Child",
+      "status": "Post-Vaccine Follow-up",
+      "last_visit": "2026-10-09",
+      "priority": 3,
+      "reason": "Follow-up after Pentavalent-1 injection: Check thigh injection site, assess feeding and weight.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-023",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Gedela Narayana Murthy",
+    "village": "Gollalapalem",
+    "distance_km": 2.4,
+    "members_count": 6,
+    "patient": {
+      "name": "Gedela Ramanamma",
+      "age": 62,
+      "gender": "Female",
+      "category": "NCD",
+      "status": "Hypertension Monitoring",
+      "last_visit": "2026-09-15",
+      "priority": 3,
+      "reason": "Monthly BP monitoring: Reinforce low sodium guidelines, check tablet inventory.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-024",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Bandaru Govindarajulu",
+    "village": "Ramabhadrapuram",
+    "distance_km": 3.7,
+    "members_count": 4,
+    "patient": {
+      "name": "Bandaru Sandhya",
+      "age": 23,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 35,
+      "edc": "2026-11-20",
+      "status": "High Risk - Previous C-Section",
+      "last_visit": "2026-10-03",
+      "priority": 1,
+      "reason": "High-risk 35 weeks ANC: Assess for uterine scar tenderness, confirm early institutional admission at Kothavalasa PHC.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-025",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Kandula Eswara Rao",
+    "village": "Tallavalasa",
+    "distance_km": 4.6,
+    "members_count": 3,
+    "patient": {
+      "name": "Kandula Tharun (Neonate)",
+      "age_days": 18,
+      "gender": "Male",
+      "category": "Child",
+      "status": "Postnatal Home Visit",
+      "last_visit": "2026-10-08",
+      "priority": 2,
+      "reason": "Day 18 HBNC check: Screen for cord infection, check temperature (hypothermia check), observe breastfeeding latch.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-026",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Dunna Appala Swami",
+    "village": "Kothavalasa",
+    "distance_km": 5.1,
+    "members_count": 5,
+    "patient": {
+      "name": "Dunna Nukaraju",
+      "age": 60,
+      "gender": "Male",
+      "category": "NCD",
+      "status": "Type 2 Diabetes Follow-up",
+      "last_visit": "2026-09-21",
+      "priority": 3,
+      "reason": "Blood sugar check, inspect feet for micro-cuts or fungal infection between toes.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-027",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Chukka Krishna Murthy",
+    "village": "Chinnaipalem",
+    "distance_km": 0.6,
+    "members_count": 4,
+    "patient": {
+      "name": "Chukka Bhavani",
+      "age": 28,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 24,
+      "edc": "2027-02-01",
+      "status": "Routine ANC Checkup",
+      "last_visit": "2026-09-25",
+      "priority": 3,
+      "reason": "ANC Visit 2: BP measurement, fetal heart check, provide IFA and Calcium.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-028",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Ganta Venkatesh",
+    "village": "Gollalapalem",
+    "distance_km": 2.6,
+    "members_count": 4,
+    "patient": {
+      "name": "Ganta Deekshitha (Child)",
+      "age_months": 22,
+      "gender": "Female",
+      "category": "Child",
+      "status": "Growth Monitoring",
+      "last_visit": "2026-09-26",
+      "priority": 3,
+      "reason": "Routine weight and height charting, check if DPT booster completed.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-029",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Bojja Satya Rao",
+    "village": "Ramabhadrapuram",
+    "distance_km": 3.6,
+    "members_count": 5,
+    "patient": {
+      "name": "Bojja Mangamma",
+      "age": 65,
+      "gender": "Female",
+      "category": "NCD",
+      "status": "Hypertension & Joint Pains",
+      "last_visit": "2026-09-23",
+      "priority": 3,
+      "reason": "Monthly BP monitoring, salt restriction counseling, check clinic follow-up date.",
+      "scheduled_time": "Upcoming"
+    }
+  },
+  {
+    "id": "KV-030",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "head_of_family": "Nakka Jagannadham",
+    "village": "Tallavalasa",
+    "distance_km": 4.4,
+    "members_count": 4,
+    "patient": {
+      "name": "Nakka Lavanya",
+      "age": 24,
+      "gender": "Female",
+      "category": "Pregnant",
+      "gestation_weeks": 31,
+      "edc": "2026-12-18",
+      "status": "High Risk - Twin Pregnancy",
+      "last_visit": "2026-10-06",
+      "priority": 1,
+      "reason": "High-risk twin pregnancy 31 weeks: Check maternal BP, monitor for pre-term contractions or severe swelling.",
+      "scheduled_time": "Upcoming"
+    }
+  }
+]

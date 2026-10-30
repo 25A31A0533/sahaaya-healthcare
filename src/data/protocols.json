@@ -1,0 +1,92 @@
+[
+  {
+    "id": "PROT-ANC-01",
+    "doc": "Maternal & Child Health Guidelines",
+    "section": "1.1",
+    "title": "Antenatal Care (ANC) Visits & Schedule",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "Every pregnant woman must complete at least 4 comprehensive Antenatal Care (ANC) checkups. Visit 1 should occur within the first 12 weeks of pregnancy for early registration and MCP card distribution. Baseline maternal blood pressure, weight, and hemoglobin (Hb) testing are performed. Provide 180 tablets of Iron Folic Acid (IFA) starting from the second trimester (after 14 weeks) and Calcium 500mg tablets twice daily. Administer Tetanus Toxoid (TT-1 or Td-1) early and TT-2 four weeks later. Emphasize institutional delivery at Kothavalasa PHC.",
+    "tags": ["anc", "pregnancy", "trimester", "ifa", "iron", "calcium", "tt", "tetanus", "mcp card", "routine", "visits"]
+  },
+  {
+    "id": "PROT-ANC-02",
+    "doc": "Maternal & Child Health Guidelines",
+    "section": "1.2",
+    "title": "Severe Maternal Danger Signs in Pregnancy and Labor",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "CRITICAL EMERGENCY: If a pregnant woman displays any of the following danger signs, refer immediately to Kothavalasa PHC or the nearest First Referral Unit (FRU): (1) Any vaginal bleeding (spotting or heavy bleeding), (2) Severe headache with blurred vision or spots before eyes, (3) Convulsions, seizures, or fits (eclampsia), (4) High fever with shivering or rash, (5) Severe continuous abdominal pain, (6) Absence or severe reduction of fetal movements for more than 12 hours, (7) Water breaking before labor pains, (8) Difficulty breathing at rest. Keep the woman on her left lateral side, maintain warmth, do not give oral liquids if drowsy, and escort her immediately in 108 ambulance.",
+    "tags": ["danger", "emergency", "bleeding", "fits", "eclampsia", "headache", "blurred vision", "fetal movement", "referral", "ambulance", "urgent"]
+  },
+  {
+    "id": "PROT-IMM-01",
+    "doc": "National Immunization Schedule Guidelines",
+    "section": "2.1",
+    "title": "Primary Childhood Immunization Schedule (0 to 12 Months)",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "Administer vaccines according to the National Immunization Schedule: At birth: BCG (0.1 ml left upper arm intradermal), OPV-0 (2 oral drops), Hepatitis B birth dose (0.5 ml anterolateral thigh within 24 hours). At 6 weeks: Pentavalent-1 (protects against Diphtheria, Pertussis, Tetanus, Hep-B, Hib), OPV-1, Rotavirus-1 (5 drops oral), fIPV-1, PCV-1. At 10 weeks: Pentavalent-2, OPV-2, Rotavirus-2. At 14 weeks: Pentavalent-3, OPV-3, Rotavirus-3, fIPV-2, PCV-2. At 9 completed months: Measles-Rubella-1 (MR-1), PCV Booster, Vitamin A first dose (100,000 IU / 1 ml oral). Advise mother that mild fever after Pentavalent is normal.",
+    "tags": ["immunisation", "vaccine", "bcg", "opv", "pentavalent", "rotavirus", "mr", "measles", "fipv", "child", "infant"]
+  },
+  {
+    "id": "PROT-IMM-02",
+    "doc": "National Immunization Schedule Guidelines",
+    "section": "2.2",
+    "title": "Booster Immunizations (16 Months to 5 Years)",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "Between 16 to 24 months of age, administer DPT Booster-1, Measles-Rubella-2 (MR-2), OPV Booster dose, and Vitamin A second dose (200,000 IU / 2 ml oral). Provide subsequent Vitamin A doses every 6 months until 5 years of age (total 9 doses). At 5 to 6 years of age, administer DPT Booster-2. At 10 years and 16 years, administer Tetanus-Diphtheria (Td) vaccine. Check vaccination card during every home visit.",
+    "tags": ["immunisation", "booster", "dpt", "mr-2", "vitamin a", "toddler", "child health"]
+  },
+  {
+    "id": "PROT-NEWBORN-01",
+    "doc": "Integrated Management of Neonatal & Childhood Illness (IMNCI)",
+    "section": "3.1",
+    "title": "Newborn Danger Signs & Immediate Referral",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "IMMEDIATE EMERGENCY: A neonate (first 28 days of life) must be referred urgently to Kothavalasa PHC / SNCU if any of these danger signs are observed: (1) Inability to suck or feed, (2) Convulsions, spasms, or abnormal twitching, (3) Fast breathing (> 60 breaths per minute while calm), (4) Severe chest indrawing (lower chest wall sucking in during inhalation), (5) Hypothermia (body cold to touch, axillary temp < 35.5 C) or high fever (> 37.5 C), (6) Yellow palms or soles in first week (severe neonatal jaundice), (7) Pus, redness, or foul smell from umbilical cord, (8) Lethargy or unconsciousness. Provide Kangaroo Mother Care (KMC) skin-to-skin contact during transit to prevent hypothermia.",
+    "tags": ["newborn", "neonate", "imnci", "danger", "fast breathing", "chest indrawing", "hypothermia", "kmc", "sucking", "jaundice", "emergency"]
+  },
+  {
+    "id": "PROT-NUTR-01",
+    "doc": "Child Nutrition & Growth Monitoring",
+    "section": "4.1",
+    "title": "Malnutrition Screening using Mid-Upper Arm Circumference (MUAC)",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "For children aged 6 to 59 months, measure Mid-Upper Arm Circumference (MUAC) using the standard tri-color Shakir tape on the left arm at midpoint between shoulder tip and elbow tip. RED ZONE (< 11.5 cm): Severe Acute Malnutrition (SAM). Check for bilateral pitting pedal edema. Refer immediately to Nutrition Rehabilitation Centre (NRC) or Kothavalasa PHC. YELLOW ZONE (11.5 cm to 12.4 cm): Moderate Acute Malnutrition (MAM). Provide home-based energy dense supplementary feeding, counsel mother on protein-rich local foods (eggs, dal, groundnuts), and follow up every 14 days. GREEN ZONE (>= 12.5 cm): Normal nutritional status.",
+    "tags": ["malnutrition", "muac", "sam", "mam", "nutrition", "growth", "child", "underweight", "edema", "shakir tape"]
+  },
+  {
+    "id": "PROT-NCD-01",
+    "doc": "National Programme for Prevention of NCDs (NP-NCD)",
+    "section": "5.1",
+    "title": "Hypertension Screening & Community Follow-up",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "Measure blood pressure for all adults aged 30 and above during home visits or Village Health Sanitation and Nutrition Days (VHSND). A blood pressure reading of Systolic >= 140 mmHg or Diastolic >= 90 mmHg on two separate occasions indicates hypertension. Check medication compliance for known hypertensive patients; counsel that antihypertensive pills must be taken daily without stopping even if asymptomatic. Advise dietary salt restriction (< 1 teaspoon / 5 grams daily), avoidance of pickles, papads, and tobacco, and encourage 30 minutes of brisk daily walking. Danger signs requiring doctor referral: sudden severe chest tightness, shortness of breath, sudden weakness in face or arm, or severe headache.",
+    "tags": ["hypertension", "blood pressure", "bp", "ncd", "salt", "lifestyle", "lifestyle advice", "cardiovascular"]
+  },
+  {
+    "id": "PROT-NCD-02",
+    "doc": "National Programme for Prevention of NCDs (NP-NCD)",
+    "section": "5.2",
+    "title": "Type 2 Diabetes Screening & Follow-up",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "Screen adults aged 30+ using random blood sugar (RBS) or fasting blood sugar (FBS) finger-prick glucometer test. Normal fasting blood sugar is 70 to 100 mg/dL. Fasting blood sugar >= 126 mg/dL or random blood sugar >= 200 mg/dL requires doctor consultation at Kothavalasa PHC. For diagnosed diabetic patients: verify daily medicine adherence, conduct monthly foot inspections for loss of sensation, cuts, calluses, or non-healing ulcers, encourage eating millets, whole grains, and leafy green vegetables while avoiding refined white sugar and sweets. Refer to doctor if blood sugar exceeds 250 mg/dL or if patient reports confusion, extreme thirst, or deep rapid breathing.",
+    "tags": ["diabetes", "blood sugar", "glucose", "glucometer", "ncd", "foot care", "diet", "lifestyle"]
+  },
+  {
+    "id": "PROT-DIARRHEA-01",
+    "doc": "Diarrhea & Dehydration Management Protocol",
+    "section": "6.1",
+    "title": "Acute Diarrhea Management with Zinc and ORS",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "For children presenting with acute watery diarrhea: (1) Assess dehydration status: check eyes (sunken?), skin pinch on abdomen (goes back slowly?), thirst (drinks eagerly or unable to drink?). (2) Oral Rehydration Salts (ORS): Dissolve one entire WHO-standard ORS packet in exactly 1 liter of clean drinking water. Give frequent small sips after every loose stool (50-100 ml for children under 2 years; 100-200 ml for older children). Discard unused solution after 24 hours. (3) Zinc dispersible tablets: 10 mg daily for infants under 6 months; 20 mg daily for children 6 months and older, continued for exactly 14 full days even after diarrhea stops. Continue breastfeeding throughout. Refer immediately if blood is present in stool, child vomits everything, or is unusually sleepy.",
+    "tags": ["diarrhea", "ors", "zinc", "dehydration", "loose stools", "fluids", "child health", "hydration"]
+  },
+  {
+    "id": "PROT-FEVER-01",
+    "doc": "Primary Care Clinical Decision Guidelines",
+    "section": "7.1",
+    "title": "Fever Management & Triage in Community",
+    "sample_notice": "SAMPLE - replace with official protocols",
+    "text": "For community fever cases: (1) Encourage ample fluid intake (boiled cooled water, coconut water, thin dal, ORS) and light loose clothing. (2) For high temperature, perform tepid sponging using room-temperature tap water on forehead, neck, and limbs; never use ice cold water. (3) Perform malaria rapid diagnostic test (RDT) if fever occurs with chills and rigors in endemic villages. (4) DANGER SIGNS requiring immediate transfer to Kothavalasa PHC: fever with rash, stiff neck, persistent vomiting, altered sensorium/drowsiness, refusal of all feeds, or temperature persisting for more than 3 days. ASHA workers do not prescribe or alter pharmaceutical dosages; direct patient to PHC Medical Officer for prescription.",
+    "tags": ["fever", "jwaram", "temperature", "sponging", "fluids", "chills", "malaria", "triage"]
+  }
+]
