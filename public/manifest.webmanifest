@@ -1,0 +1,29 @@
+{
+  "name": "Sahaaya Health",
+  "short_name": "Sahaaya",
+  "description": "Offline-first Clinical Decision Support and Visit Planner for ASHA and ANM healthcare workers",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F4F7F5",
+  "theme_color": "#0F6E56",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
